@@ -1,6 +1,7 @@
 import { useState } from "react";
 import hangjungdong from "./hangjungdong";
 
+// export 합쳐서 함수값 설정
 export default function App2() {
   const [val1, setVal1] = useState("");
   const [val2, setVal2] = useState("");
